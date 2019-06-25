@@ -10,6 +10,6 @@ const inputHandler = (evt) => {
 
 input.addEventListener('input', inputHandler);
 
-fetch('./kladr.json')  
+fetch('./cities.json')  
   .then(res => res.json())
   .then(data => console.log(data))
