@@ -1,0 +1,26 @@
+.autocomplete {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.autocomplete__input {
+  position: absolute;
+  width: 250px;
+  font-size: 16px;
+}
+
+.autocomplete__drop-down {
+  position: absolute;
+  top: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.autocomplete__drop-down > li {
+  list-style: none;
+  width: 350px;
+  height: 25px;
+  border: 2px solid black;
+  font-size: 16px;
+}
